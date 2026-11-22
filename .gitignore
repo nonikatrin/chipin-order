@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.DS_Store
+
+# Secrets & local machine config — never commit
+.secrets/
+.env.local
+.env.*.local
+supabase/.temp/
+supabase/.branches/
+.claude/
+
+# Business documents — kept private (not part of the app)
+marketing/
+website/
+ChipInOrder-status.md
+
+# Source artwork not used by the app (13–15 MB each)
+src/assets/branding/chipin-order-lockup-4k.png
+src/assets/branding/chipin-order-white.png

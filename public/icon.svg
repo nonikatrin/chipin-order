@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Chip!n">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#15917F" />
+      <stop offset="1" stop-color="#0E6E60" />
+    </linearGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7C463" />
+      <stop offset="1" stop-color="#E8A33D" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- wallet body -->
+  <rect x="96" y="150" width="320" height="236" rx="40" fill="#FFFBF5" />
+  <rect x="96" y="150" width="320" height="236" rx="40" fill="none" stroke="#0E6E60" stroke-width="10" opacity="0.12" />
+  <!-- wallet flap pocket -->
+  <path d="M256 150 h120 a40 40 0 0 1 40 40 v40 h-150 a25 25 0 0 1 -25 -25 v-95 z" fill="#10806F" opacity="0.10" />
+  <!-- coin -->
+  <circle cx="332" cy="268" r="58" fill="url(#coin)" stroke="#C9852A" stroke-width="6" />
+  <text x="332" y="268" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="#7A4E12" text-anchor="middle" dominant-baseline="central">Rp</text>
+  <!-- friendly check mark / harmony -->
+  <path d="M150 232 q0 -16 16 -16 h70 a16 16 0 0 1 0 32 h-70 q-16 0 -16 -16 z" fill="#0E6E60" opacity="0.18" />
+  <path d="M150 300 q0 -16 16 -16 h40 a16 16 0 0 1 0 32 h-40 q-16 0 -16 -16 z" fill="#0E6E60" opacity="0.18" />
+</svg>
